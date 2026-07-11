@@ -1,5 +1,15 @@
 # hiring-signal-tracker
 
+> **EN** — Turn public tech companies' official job postings (Greenhouse/Lever/Ashby
+> APIs) into a quantified time series of AI-investment signals for fundamental
+> investment research: tiered skill-dictionary scoring with boilerplate
+> suppression, role/seniority classification, salary-band extraction, red-flag
+> diffing, and weekly strategy-jump detection. Python stdlib only, zero
+> dependencies. Also works as an [Agent Skill](https://agentskills.io) —
+> point Claude Code (or any compatible agent) at `SKILL.md`. Docs below are in
+> Chinese; the code and SKILL.md are English-friendly. MIT licensed. Not
+> investment advice.
+
 把上市科技公司的**官方招聘数据**变成可量化、可追溯的 **AI 投入信号时间序列**,
 作为基本面(价值投资)研究的领先证据。它不是选股机器,而是一台领先财报
 1~2 个季度的"企业行为记录仪":市场上多数人看公司**说了什么**,它看公司
