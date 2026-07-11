@@ -1,0 +1,10 @@
+date,ticker,company,total_postings,ai_title_jobs,ai_title_share,strong_skill_jobs,strong_skill_share,weighted_density,demand_validated_jobs,demand_validated_share,research_jobs,nontech_jobs,nontech_ai_penetration,top_terms
+2026-07-04,PLTR,Palantir,275,2,0.7,63,22.9,1.2,95,34.5,0,29,6.9,\bai\b×68; \bllms?\b×23; embedding×16; agentic×11; artificial intelligence×10
+2026-07-04,DDOG,Datadog,406,27,6.7,51,12.6,2.09,143,35.2,3,72,5.6,\bai\b×406; \bllms?\b×24; agentic×22; \bclaude\b×17; machine learning×16
+2026-07-04,NET,Cloudflare,239,10,4.2,57,23.8,3.28,113,47.3,0,26,15.4,\bai\b×239; \bllms?\b×28; ai agents?×27; agentic×15; \brag\b×14
+2026-07-04,MDB,MongoDB,397,11,2.8,77,19.4,2.21,118,29.7,4,43,18.6,\bai\b×396; generative ai×41; \brag\b×32; \bllms?\b×23; agentic×20
+2026-07-04,ESTC,Elastic,203,11,5.4,36,17.7,2.97,61,30.0,0,33,15.2,\bai\b×203; vector (database|db|store)×23; \bllms?\b×21; \brag\b×20; agentic×17
+2026-07-04,DUOL,Duolingo,66,4,6.1,10,15.2,1.82,1,1.5,2,22,0.0,\bai\b×28; \bllms?\b×8; machine learning×8; fine[- ]?tun×4; large language model×4
+2026-07-04,GTLB,GitLab,142,13,9.2,26,18.3,2.47,61,43.0,0,14,21.4,\bai\b×142; agentic×21; ai agents?×14; large language model×7; \bllms?\b×6
+2026-07-04,IOT,Samsara,332,27,8.1,48,14.5,1.98,131,39.5,0,60,28.3,\bai\b×125; \bllms?\b×32; \bclaude\b×24; computer vision×24; agentic×19
+2026-07-04,TWLO,Twilio,153,9,5.9,30,19.6,3.79,39,25.5,3,29,13.8,\bai\b×153; artificial intelligence×153; \bllms?\b×20; agentic×16; machine learning×10

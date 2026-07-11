@@ -1,0 +1,81 @@
+{
+  "companies": [
+    {"name": "Datadog",     "ticker": "DDOG", "ats": "greenhouse", "token": "datadog",     "theme": "数据/可观测性基础设施"},
+    {"name": "MongoDB",     "ticker": "MDB",  "ats": "greenhouse", "token": "mongodb",     "theme": "数据/可观测性基础设施"},
+    {"name": "Elastic",     "ticker": "ESTC", "ats": "greenhouse", "token": "elastic",     "theme": "数据/可观测性基础设施"},
+    {"name": "Fastly",      "ticker": "FSLY", "ats": "greenhouse", "token": "fastly",      "theme": "数据/可观测性基础设施"},
+    {"name": "Cloudflare",  "ticker": "NET",  "ats": "greenhouse", "token": "cloudflare",  "theme": "网络与安全"},
+    {"name": "Okta",        "ticker": "OKTA", "ats": "greenhouse", "token": "okta",        "theme": "网络与安全"},
+    {"name": "Palantir",    "ticker": "PLTR", "ats": "lever",      "token": "palantir",    "theme": "AI 原生"},
+    {"name": "GitLab",      "ticker": "GTLB", "ats": "greenhouse", "token": "gitlab",      "theme": "开发者/生产力工具"},
+    {"name": "Figma",       "ticker": "FIG",  "ats": "greenhouse", "token": "figma",       "theme": "开发者/生产力工具"},
+    {"name": "Asana",       "ticker": "ASAN", "ats": "greenhouse", "token": "asana",       "theme": "开发者/生产力工具"},
+    {"name": "Dropbox",     "ticker": "DBX",  "ats": "greenhouse", "token": "dropbox",     "theme": "开发者/生产力工具"},
+    {"name": "Twilio",      "ticker": "TWLO", "ats": "greenhouse", "token": "twilio",      "theme": "营销与客户平台"},
+    {"name": "HubSpot",     "ticker": "HUBS", "ats": "greenhouse", "token": "hubspotjobs",     "theme": "营销与客户平台"},
+    {"name": "Braze",       "ticker": "BRZE", "ats": "greenhouse", "token": "braze",       "theme": "营销与客户平台"},
+    {"name": "Klaviyo",     "ticker": "KVYO", "ats": "greenhouse", "token": "klaviyo",     "theme": "营销与客户平台"},
+    {"name": "Duolingo",    "ticker": "DUOL", "ats": "greenhouse", "token": "duolingo",    "theme": "消费互联网"},
+    {"name": "Pinterest",   "ticker": "PINS", "ats": "greenhouse", "token": "pinterest",   "theme": "消费互联网"},
+    {"name": "Reddit",      "ticker": "RDDT", "ats": "greenhouse", "token": "reddit",      "theme": "消费互联网"},
+    {"name": "Roblox",      "ticker": "RBLX", "ats": "greenhouse", "token": "roblox",      "theme": "消费互联网"},
+    {"name": "Airbnb",      "ticker": "ABNB", "ats": "greenhouse", "token": "airbnb",      "theme": "消费互联网"},
+    {"name": "Match Group", "ticker": "MTCH", "ats": "lever",      "token": "matchgroup",  "theme": "消费互联网"},
+    {"name": "Robinhood",   "ticker": "HOOD", "ats": "greenhouse", "token": "robinhood",   "theme": "金融科技"},
+    {"name": "Coinbase",    "ticker": "COIN", "ats": "greenhouse", "token": "coinbase",    "theme": "金融科技"},
+    {"name": "Toast",       "ticker": "TOST", "ats": "greenhouse", "token": "toast",       "theme": "金融科技"},
+    {"name": "Samsara",     "ticker": "IOT",  "ats": "greenhouse", "token": "samsara",     "theme": "物流与实体数字化"},
+    {"name": "DoorDash",    "ticker": "DASH", "ats": "greenhouse", "token": "doordashusa", "theme": "物流与实体数字化"},
+    {"name": "Instacart",   "ticker": "CART", "ats": "greenhouse", "token": "instacart",   "theme": "物流与实体数字化"}
+  ],
+  "skill_categories": {
+    "model_infra": {
+      "weight": 3,
+      "terms": ["pytorch", "tensorflow", "\\bjax\\b", "\\bcuda\\b", "\\btriton\\b",
+        "distributed training", "model training", "pre-?training", "\\brlhf\\b",
+        "reinforcement learning", "diffusion model", "transformer",
+        "fine[- ]?tun", "inference optimization", "model architecture", "gpu cluster"]
+    },
+    "application": {
+      "weight": 3,
+      "terms": ["\\brag\\b", "retrieval[- ]augmented", "vector (database|db|store|search)",
+        "embedding", "langchain", "llamaindex", "prompt engineering", "agentic",
+        "ai agents?", "\\bllms?\\b", "large language model", "semantic search",
+        "conversational ai", "ai assistant"]
+    },
+    "data_ml_ops": {
+      "weight": 2,
+      "terms": ["mlops", "ml pipeline", "feature store", "data labeling",
+        "model monitoring", "ml (infrastructure|platform)", "model evaluation"]
+    },
+    "general_medium": {
+      "weight": 2,
+      "terms": ["\\bgpu\\b", "inference", "deep learning", "natural language processing",
+        "\\bnlp\\b", "computer vision", "machine learning (engineer|model|scientist)",
+        "recommendation (system|engine)", "hugging ?face"]
+    },
+    "buzz": {
+      "weight": 1,
+      "terms": ["\\bai\\b", "artificial intelligence", "machine learning",
+        "\\bgenai\\b", "generative ai", "ai[- ]powered"]
+    }
+  },
+  "vendors": ["anthropic", "\\bclaude\\b", "openai", "chatgpt", "\\bgpt-?4\\b",
+    "google gemini", "gemini (api|models?|pro|flash|ultra)", "aws bedrock", "\\bbedrock\\b", "vertex ai", "azure openai",
+    "\\bllama\\b", "mistral", "databricks", "\\bnvidia\\b"],
+  "role_rules": {
+    "demand_validated": ["forward deployed", "solutions engineer", "solutions architect", "sales engineer", "account executive", "customer success", "professional services", "implementation", "deployment strateg", "technical account manager", "pre-sales", "presales"],
+    "research": ["research scientist", "research engineer", "applied research", "\\bresearcher\\b"],
+    "product_eng": ["engineer", "developer", "product manager", "\\bpm\\b", "designer", "data scientist", "architect", "\\bsre\\b", "machine learning"],
+    "nontech": ["sales", "marketing", "finance", "accounting", "legal", "counsel", "recruiter", "recruiting", "people ops", "human resources", "\\bhr\\b", "payroll", "support", "operations", "office", "administrative", "enablement", "communications", "brand"]
+  },
+  "seniority_rules": {
+    "intern": ["intern", "co-?op", "new grad", "university grad", "campus", "apprentice", "early career"],
+    "exec": ["\\bchief\\b", "\\bvp\\b", "vice president", "head of", "\\bpresident\\b", "general manager"],
+    "director": ["director"],
+    "staff_principal": ["\\bstaff\\b", "principal", "distinguished", "\\bfellow\\b"],
+    "senior": ["senior", "\\bsr\\.?\\b", "\\blead\\b"]
+  },
+  "ai_title_terms": ["\\bai\\b", "machine learning", "\\bml\\b", "\\bllm\\b", "deep learning", "artificial intelligence", "\\bgenai\\b", "generative"],
+  "salary": {"min_plausible": 25000, "max_plausible": 1500000}
+}
